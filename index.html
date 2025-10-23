@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life Changing Consulting - Transform Your Business</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acherus+Grotesque:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <div class="logo-initials">LCC</div>
-                <div class="logo-text">LIFE CHANGING CONSULTING</div>
+                <img src="LCC_Logo.jpg" alt="Life Changing Consulting Logo" class="header-logo">
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
@@ -27,24 +26,41 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-image-placeholder">
+                <img src="diversity.jpg" alt="Diversity" class="hero-image-placeholder">
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
         <div class="hero-content">
             <div class="hero-hook">
-                <h1>Do you want to grow your small business?</h1>
+                <h1 class="hero-title">Looking to grow your business?</h1>
                 <p class="hero-subtitle">Transform your vision into reality with expert guidance that inspires growth and positive impact</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Businesses Transformed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
             </div>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Start Your Transformation</a>
-                <a href="#about" class="btn btn-secondary">Learn More</a>
+                <a href="#contact" class="btn btn-primary btn-large">Start Your Transformation</a>
+                <a href="#about" class="btn btn-secondary btn-large">Learn More</a>
             </div>
-        </div>
-        <div class="hero-decoration">
-            <div class="butterfly butterfly-1">🦋</div>
-            <div class="butterfly butterfly-2">🦋</div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
+        <div class="about-background"></div>
         <div class="container">
             <h2 class="section-title">About Life Changing Consulting</h2>
             <p class="section-description">
@@ -54,14 +70,23 @@
             </p>
             <div class="values-grid">
                 <div class="value-card">
+                    <div class="card-image">
+                        <div class="image-placeholder professional-image"></div>
+                    </div>
                     <h3>Professional Excellence</h3>
                     <p>Delivering expert guidance with the highest standards of professionalism</p>
                 </div>
                 <div class="value-card">
+                    <div class="card-image">
+                        <div class="image-placeholder partnership-image"></div>
+                    </div>
                     <h3>Approachable Partnership</h3>
                     <p>Building genuine relationships that make complex business concepts relatable</p>
                 </div>
                 <div class="value-card">
+                    <div class="card-image">
+                        <div class="image-placeholder community-image"></div>
+                    </div>
                     <h3>Community Impact</h3>
                     <p>Supporting growth that creates positive ripple effects throughout your community</p>
                 </div>
@@ -71,12 +96,13 @@
 
     <!-- Partners Section -->
     <section id="partners" class="partners">
+        <div class="partners-background"></div>
         <div class="container">
             <h2 class="section-title">Meet Our Partners</h2>
             <div class="partners-grid">
                 <div class="partner-card">
                     <div class="partner-image">
-                        <div class="placeholder-image">A</div>
+                        <img src="AndreaDawn.jpeg" alt="Andrea" class="partner-photo">
                     </div>
                     <h3>Andrea</h3>
                     <p class="partner-title">Co-Founder & Strategic Advisor</p>
@@ -95,7 +121,7 @@
                 </div>
                 <div class="partner-card">
                     <div class="partner-image">
-                        <div class="placeholder-image">D</div>
+                        <img src="AndreaDawn2.jpeg" alt="Dawn" class="partner-photo">
                     </div>
                     <h3>Dawn</h3>
                     <p class="partner-title">Co-Founder & Operations Specialist</p>
@@ -123,22 +149,58 @@
             <p class="section-description">
                 Comprehensive consulting solutions designed to transform your business and accelerate growth
             </p>
-            <div class="services-grid">
+            <div class="services-grid-centered">
                 <div class="service-card">
+                    <div class="card-image">
+                        <div class="image-placeholder strategy-image"></div>
+                    </div>
                     <h3>Strategic Business Planning</h3>
                     <p>Develop clear roadmaps for sustainable growth with our comprehensive strategic planning services</p>
+                    <ul class="service-details">
+                        <li>Business certifications and compliance</li>
+                        <li>Strategic planning documents</li>
+                        <li>Market analysis and positioning</li>
+                        <li>Financial forecasting and budgeting</li>
+                    </ul>
                 </div>
                 <div class="service-card">
-                    <h3>Operations Optimization</h3>
-                    <p>Streamline your processes and maximize efficiency with our proven operational improvement strategies</p>
-                </div>
-                <div class="service-card">
+                    <div class="card-image">
+                        <div class="image-placeholder growth-image"></div>
+                    </div>
                     <h3>Growth Strategy Development</h3>
                     <p>Identify and capitalize on growth opportunities tailored to your unique business model</p>
+                    <ul class="service-details">
+                        <li>Market expansion strategies</li>
+                        <li>Revenue optimization plans</li>
+                        <li>Competitive analysis</li>
+                        <li>Growth acceleration frameworks</li>
+                    </ul>
                 </div>
                 <div class="service-card">
-                    <h3>Team Development</h3>
-                    <p>Build stronger, more effective teams that drive your business forward with purpose</p>
+                    <div class="card-image">
+                        <div class="image-placeholder accelerator-image"></div>
+                    </div>
+                    <h3>Business Accelerators</h3>
+                    <p>Fast-track your business growth with our proven acceleration methodologies</p>
+                    <ul class="service-details">
+                        <li>Rapid scaling strategies</li>
+                        <li>Performance optimization</li>
+                        <li>Technology integration</li>
+                        <li>Partnership development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="card-image">
+                        <div class="image-placeholder partnership-image"></div>
+                    </div>
+                    <h3>Partnership Development</h3>
+                    <p>Build strategic partnerships that drive mutual growth and create lasting value</p>
+                    <ul class="service-details">
+                        <li>Strategic alliance formation</li>
+                        <li>Partnership agreements</li>
+                        <li>Joint venture planning</li>
+                        <li>Network expansion strategies</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -154,11 +216,11 @@
                     <div class="contact-methods">
                         <div class="contact-method">
                             <h4>Schedule a Consultation</h4>
-                            <p>Book a free discovery call to discuss your business goals</p>
+                            <p>Book a free discovery call to discuss your business goals and transformation opportunities</p>
                         </div>
                         <div class="contact-method">
                             <h4>Download Our Guide</h4>
-                            <p>Get our free "Small Business Growth Checklist"</p>
+                            <p>Get our free "Small Business Growth Checklist" and G.A.S. acceleration framework</p>
                         </div>
                     </div>
                 </div>

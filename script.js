@@ -45,7 +45,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     
     // Simulate API call
     setTimeout(() => {
-        alert(`Thank you, ${name}! We've received your message and will be in touch within 24 hours to discuss your business goals.`);
+        alert(`Thank you, ${name}! We've received your message and will be in touch within 24 hours to discuss your business goals and transformation opportunities.`);
         
         // Reset form
         this.reset();
